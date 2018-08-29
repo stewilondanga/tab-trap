@@ -71,11 +71,11 @@ button.keyboardTrap {
   margin-bottom: 10px;
 }
 
-/*.sr-only{
+.sr-only {
   opacity: 0;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
