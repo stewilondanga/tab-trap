@@ -40,7 +40,7 @@ nav li {
   padding: 15px;
 }
 
-/*.overlay {
+.overlay {
   background: red;
   opacity: 0.5;
   z-index: 1;
@@ -50,7 +50,8 @@ nav li {
   top: 0;
   left: 0;
 }
-input {
+
+/*input {
   padding: 10px;
   margin-bottom: 5px;
 }
