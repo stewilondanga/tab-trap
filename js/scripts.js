@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*function closeModal() {
+function closeModal() {
   modalLinks.forEach(link => {
     link.setAttribute('tabindex', -1);
   });
@@ -15,7 +15,7 @@ var navigate = (function() {
   modal.style.opacity = 0;
   document.body.removeChild(overlay);
 }
-let open = document.querySelector('button[name=open]');
+/*let open = document.querySelector('button[name=open]');
 let close = document.querySelector('button[name=close]');
 let submit = document.querySelector('button[name=submit]');
 let form = document.querySelector('form');
