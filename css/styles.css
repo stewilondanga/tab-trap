@@ -65,12 +65,13 @@ button {
   margin: 0 20px;
 }
 
-/*button.keyboardTrap {
+button.keyboardTrap {
   padding: 5px;
   margin: 0;
   margin-bottom: 10px;
 }
-.sr-only{
+
+/*.sr-only{
   opacity: 0;
 }
 
