@@ -32,21 +32,21 @@ let overlay = document.createElement('div');
 overlay.className = 'overlay';
 document.body.appendChild(overlay);
 
-/*firstModalLink = modalLinks[0];
+firstModalLink = modalLinks[0];
 secondModalLink = modalLinks[1];
 lastModalLink = modalLinks[modalLinks.length - 1];
 modalLinks.forEach((modalLink, key) => {
   modalLink.addEventListener('focus', function(e) {
-    if (key ==  0) {
+    if (key == 0) {
       secondModalLink.focus()
     }
-    if (key ==  modalLinks.length - 1) {
+    if (key == modalLinks.length - 1) {
       firstModalLink.focus()
     }
   })
 });
 
-outsideLinks.forEach(outsideLink => {
+/*outsideLinks.forEach(outsideLink => {
   outsideLink.addEventListener('focus', function(e) {
     if (modal.style.opacity == '1') {
       secondModalLink.focus();
