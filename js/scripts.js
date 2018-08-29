@@ -15,14 +15,14 @@ function closeModal() {
   modal.style.opacity = 0;
   document.body.removeChild(overlay);
 }
-/*let open = document.querySelector('button[name=open]');
+let open = document.querySelector('button[name=open]');
 let close = document.querySelector('button[name=close]');
 let submit = document.querySelector('button[name=submit]');
 let form = document.querySelector('form');
 let modal = document.querySelector('#modal');
 let modalLinks = modal.querySelectorAll('.keyboardTrap');
 
-let outsideLinks = document.querySelectorAll('a:not(.keyboardTrap)');
+/*let outsideLinks = document.querySelectorAll('a:not(.keyboardTrap)');
 
 modal.style.opacity = 1;
 modalLinks.forEach(link => {
