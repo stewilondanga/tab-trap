@@ -24,11 +24,11 @@ let modalLinks = modal.querySelectorAll('.keyboardTrap');
 
 let outsideLinks = document.querySelectorAll('a:not(.keyboardTrap)');
 
-/*modal.style.opacity = 1;
+modal.style.opacity = 1;
 modalLinks.forEach(link => {
   link.setAttribute('tabindex', 0);
 });
-let overlay = document.createElement('div');
+/*let overlay = document.createElement('div');
 overlay.className = 'overlay';
 document.body.appendChild(overlay);
 
