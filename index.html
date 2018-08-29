@@ -21,6 +21,40 @@
         </a>
     </div>
 
+    <header role="banner">
+        <h1>Tab Trap</h1>
+        <nav role="navigation">
+          <ul>
+            <li><a href="Feature1">Feature 1</a></li>
+            <li><a href="Feature2">Feature 2</a></li>
+            <li><a href="Feature3">Feature 3</a></li>
+            <li><a href="Feature4">Feature 4</a></li>
+            <li><a href="Feature5">Feature 5</a></li>
+          </ul>
+        </nav>
+    <p>Try to click above links. You can't. Its important to give access to secured links after user logged in.</p>
+            <p>Use keyboard's Tab Key to target input texts, button and links.</p>
+      </header>
+      <section role="contentinfo">
+        <div id="modal" role="modal">
+          <h2>Login Form</h2>
+          <h5>Please login to enjoy features of website</h5>
+          <h6>Try any input for login</h6>
+          <a href="#" class="keyboardTrap sr-only">.</a>
+          <form action="">
+            <div>
+              <input type="text" name="username" placeholder="Username" pattern="[a-zA-Z]+" value="" required class="keyboardTrap" tabindex="-1" autocomplete="off">
+            </div>
+            <div>
+              <input type="password" name="password" placeholder="Password" value="" required aria-describedby="password-tip" class="keyboardTrap" tabindex="-1" autocomplete="off">
+              <p id="password-tip">Use strong password</p>
+            </div>
+            <button type="submit" name="submit" class="keyboardTrap" tabindex="-1">SUBMIT</button>
+            <a href="#" class="keyboardTrap sr-only">.</a>
+          </form>
+        </div>
+      </section>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
