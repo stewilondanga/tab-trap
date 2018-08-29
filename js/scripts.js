@@ -46,7 +46,7 @@ modalLinks.forEach((modalLink, key) => {
   })
 });
 
-/*outsideLinks.forEach(outsideLink => {
+outsideLinks.forEach(outsideLink => {
   outsideLink.addEventListener('focus', function(e) {
     if (modal.style.opacity == '1') {
       secondModalLink.focus();
@@ -54,7 +54,7 @@ modalLinks.forEach((modalLink, key) => {
   })
 })
 
-form.addEventListener('submit', function(e) {
+/*form.addEventListener('submit', function(e) {
   e.preventDefault();
   submit.setAttribute('disabled', 'disabled');
   submit.innerHTML = 'Submitting...';
