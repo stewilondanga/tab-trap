@@ -80,7 +80,7 @@ button.keyboardTrap {
   margin: 20px auto;
 }
 
-/*#contact h1 {
+#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
@@ -102,7 +102,7 @@ button.keyboardTrap {
   transition: all 0.2s linear;
 }
 
-.cal:hover {
+/*.cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
 }
