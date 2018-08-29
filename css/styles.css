@@ -19,10 +19,11 @@ body {
   height: 1.5em;
 }
 
-/*nav li{
+nav li {
   display: inline-block;
 }
-#modal {
+
+/*#modal {
   min-width: 300px;
   min-height: 200px;
   position: absolute;
