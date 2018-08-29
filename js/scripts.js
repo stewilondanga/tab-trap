@@ -54,11 +54,11 @@ outsideLinks.forEach(outsideLink => {
   })
 })
 
-/*form.addEventListener('submit', function(e) {
+form.addEventListener('submit', function(e) {
   e.preventDefault();
   submit.setAttribute('disabled', 'disabled');
   submit.innerHTML = 'Submitting...';
-  setTimeout(function(){
+  setTimeout(function() {
     console.log('Executed');
     submit.removeAttribute('disabled');
     submit.innerHTML = 'SUBMIT';
@@ -66,4 +66,3 @@ outsideLinks.forEach(outsideLink => {
     outsideLinks[0].focus();
   }, 2000);
 });
-*/
