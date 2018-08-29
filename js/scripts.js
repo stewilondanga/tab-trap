@@ -22,9 +22,9 @@ let form = document.querySelector('form');
 let modal = document.querySelector('#modal');
 let modalLinks = modal.querySelectorAll('.keyboardTrap');
 
-/*let outsideLinks = document.querySelectorAll('a:not(.keyboardTrap)');
+let outsideLinks = document.querySelectorAll('a:not(.keyboardTrap)');
 
-modal.style.opacity = 1;
+/*modal.style.opacity = 1;
 modalLinks.forEach(link => {
   link.setAttribute('tabindex', 0);
 });
