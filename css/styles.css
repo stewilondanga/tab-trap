@@ -51,11 +51,12 @@ nav li {
   left: 0;
 }
 
-/*input {
+input {
   padding: 10px;
   margin-bottom: 5px;
 }
-button {
+
+/*button {
   text-align: center;
   padding: 15px;
   border: 2px solid purple;
