@@ -1,4 +1,9 @@
-/*body {
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans');
+/*body{
+  font-size: calc(12px + (16-12)*(100vw-400px)/(1200-400));
+  font-family: Open Sans;
+}
+body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -21,11 +26,7 @@
   height: 1.5em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans');
-body{
-  font-size: calc(12px + (16-12)*(100vw-400px)/(1200-400));
-  font-family: Open Sans;
-}
+
 nav li{
   display: inline-block;
 }
