@@ -28,11 +28,11 @@ modal.style.opacity = 1;
 modalLinks.forEach(link => {
   link.setAttribute('tabindex', 0);
 });
-/*let overlay = document.createElement('div');
+let overlay = document.createElement('div');
 overlay.className = 'overlay';
 document.body.appendChild(overlay);
 
-firstModalLink = modalLinks[0];
+/*firstModalLink = modalLinks[0];
 secondModalLink = modalLinks[1];
 lastModalLink = modalLinks[modalLinks.length - 1];
 modalLinks.forEach((modalLink, key) => {
